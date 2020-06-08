@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{122b1219-1bbf-4d14-81f0-8a00fa606681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SPA">
+      <UniqueIdentifier>{2403128a-b4f5-4235-80c7-1b71a25011bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{5ef0e395-d984-426d-b004-e03092751ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D10">
+      <UniqueIdentifier>{3be8bdf5-3194-44b4-b224-6c89bf31024f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{f269e3f9-8565-4f20-8917-8efd0d9dc4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{9ae51304-65b9-45ed-ba15-507fe8f03845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{a0aa26bd-c9ae-43c3-8e64-1695d9eb04e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{ee4bc244-bf0a-435f-b11b-adea255725b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{5234e2a5-fd19-4456-ae36-a9103e8fdd2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Water">
+      <UniqueIdentifier>{d2e10e48-e6b9-428c-9832-767e9b43d6b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Heightmap.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Terrain.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SPA\spa.h">
+      <Filter>SPA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3D10.h">
+      <Filter>D3D10</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DepthStencil.h">
+      <Filter>D3D10</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Device.h">
+      <Filter>D3D10</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderSurface.h">
+      <Filter>D3D10</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text.h">
+      <Filter>D3D10</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture.h">
+      <Filter>D3D10</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Clipmap.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Effect.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Frustum.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HDR.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Light.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Material.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MeshObject.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Probe.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sky.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\stdafx.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SubMesh.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vertex.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AllocateHierarchy.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Array.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LinkedList.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Log.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MessageHandler.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MString.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\QMath.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stack.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ThreadPool.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DirectInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stream.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UserAllocator.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Water.h">
+      <Filter>Water</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Terrain.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TerrainClipmaps.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TerrainDebug.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TerrainLayers.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TerrainSculpting.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SPA\spa.cpp">
+      <Filter>SPA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debug.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Deferred.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Forward.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RendererInit.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shadows.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\States.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Transparency.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3D10.cpp">
+      <Filter>D3D10</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DepthStencil.cpp">
+      <Filter>D3D10</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Device.cpp">
+      <Filter>D3D10</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderSurface.cpp">
+      <Filter>D3D10</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text.cpp">
+      <Filter>D3D10</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture.cpp">
+      <Filter>D3D10</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Clipmap.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effect.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Frustum.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HDR.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Light.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Material.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MeshObject.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Probe.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sky.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\stdafx.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SubMesh.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vertex.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AllocateHierarchy.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Array.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LinkedList.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Log.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MessageHandler.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MString.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\QMath.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stack.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ThreadPool.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stream.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UserAllocator.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Water.cpp">
+      <Filter>Water</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shaders\AmbientOcclusion.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Atmosphere.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Common Shaders.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Common States.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Common Vars.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\ConeStepMapping.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Core.fxo">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Deferred.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\EdgeDetection.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Forward.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\HDR.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Honua.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\MaterialHelper.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Particle.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Perlin.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\PostFX.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\ReliefMapping.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Scattering.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Shading.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\ShadowMap.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Terrain.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Transparency.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\Water.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Shaders\Main.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

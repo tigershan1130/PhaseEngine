@@ -1,0 +1,67 @@
+Core Engine 3.0 Debug Log
+
+Phase Engine Log
+CPU Cores: 
+LOG: Initializing window [InitWindow(...) @ line 47]
+
+LOG: ... done! [InitWindow(...) @ line 79]
+
+Creating Device...
+C:\Users\TigerShan\Desktop\Phase\Shaders\Main.fx
+Model Loaded - "SPHERE_OBJECT"
+Loading X File
+Model Loaded - "Models\Old\box.x"
+Model Loaded - "CONE_OBJECT"
+Building sky system
+Textures\clouds.bmp
+Textures\Textures\clouds.bmp
+C:\Users\TigerShan\Desktop\Phase\Textures\clouds.bmp
+Textures\Old\lightbulb.jpg
+Textures\Old\Textures\Old\lightbulb.jpg
+C:\Users\TigerShan\Desktop\Phase\Textures\Old\lightbulb.jpg
+Loading X File
+Model Loaded - "Models\Editor\Axis Cone.x"
+Loading X File
+Model Loaded - "Models\Editor\Axis Pyre.x"
+Loading X File
+Model Loaded - "Models\Editor\Axis Ball.x"
+Loading X File
+Model Loaded - "Models\Old\sphere.x"
+Device created!
+Device resizing...
+GBuffers created
+PostFX Framework Loaded
+SSAO Texture Created
+Creating HDR System
+Building Water plane
+Textures\dudvmap.bmp
+Textures\Textures\dudvmap.bmp
+C:\Users\TigerShan\Desktop\Phase\Textures\dudvmap.bmp
+Textures\waterNormal.bmp
+Textures\Textures\waterNormal.bmp
+C:\Users\TigerShan\Desktop\Phase\Textures\waterNormal.bmp
+Textures\particle4.jpg
+Textures\Textures\particle4.jpg
+C:\Users\TigerShan\Desktop\Phase\Textures\particle4.jpg
+Textures\particle2.jpg
+Textures\Textures\particle2.jpg
+C:\Users\TigerShan\Desktop\Phase\Textures\particle2.jpg
+Textures\particle.jpg
+Textures\Textures\particle.jpg
+C:\Users\TigerShan\Desktop\Phase\Textures\particle.jpg
+LOG: Exiting now... [wWinMain(...) @ line 326]
+
+Swap Chain released
+Destroying Device
+BaseMesh::Release(Models\Editor\Axis Cone.x)
+BaseMesh::Release(Models\Editor\Axis Pyre.x)
+BaseMesh::Release(Models\Editor\Axis Ball.x)
+BaseMesh::Release(Models\Old\sphere.x)
+Destroying Scene
+BaseMesh::Release(CONE_OBJECT)
+BaseMesh::Release(Models\Old\box.x)
+BaseMesh::Release(SPHERE_OBJECT)
+LOG: Beginning device and resource clean-up [Core::D3D10App::CleanupDevice(...) @ line 236]
+
+LOG: ... done! [Core::D3D10App::CleanupDevice(...) @ line 250]
+

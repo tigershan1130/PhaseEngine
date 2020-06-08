@@ -1,0 +1,106 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(36,5): warning MSB4211: The property "IntermediateOutputPath" is being set to a value for the first time, but it was already consumed at "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (35,5)".
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(337,5): warning MSB4211: The property "CleanFile" is being set to a value for the first time, but it was already consumed at "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (35,5)".
+  main.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  AllocateHierarchy.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Array.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Camera.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Clipmap.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  D3D10.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Debug.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Deferred.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  DepthStencil.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Device.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  DirectInput.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Effect.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Forward.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Frustum.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  HDR.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Light.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  LinkedList.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Log.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Material.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Mesh.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Compiling...
+  MeshObject.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  MessageHandler.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  MString.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Particle.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Probe.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  QMath.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Renderer.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  RendererInit.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  RenderSurface.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  ResourceManager.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Scene.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Shadows.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Sky.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  spa.cpp
+  Stack.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  States.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  stdafx.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Stream.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\Stream.cpp(3,10): fatal error C1083: Cannot open include file: 'NxPhysics.h': No such file or directory
+  SubMesh.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Terrain.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Compiling...
+  TerrainClipmaps.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  TerrainDebug.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  TerrainLayers.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  TerrainSculpting.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Text.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Texture.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  ThreadPool.cpp
+  Transparency.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  UserAllocator.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\UserAllocator.cpp(10,10): fatal error C1083: Cannot open include file: 'NxPhysics.h': No such file or directory
+  Util.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Vertex.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Water.cpp
+D:\C++ConsolePractice\Phase\D3D10App\Source\stdafx.h(85,10): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
